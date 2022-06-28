@@ -1,4 +1,3 @@
-export function test() {
-    const msg: String = "Some String"
-    console.log(msg);
-}
+export * as Models from './models'
+export * as ChainJSPlugins from './chainjs_plugins'
+export * as ChainJS from '@open-rights-exchange/chain-js'
