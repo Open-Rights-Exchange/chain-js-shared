@@ -1,0 +1,49 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "allowSyntheticDefaultImports": true,
+        "baseUrl": "src",
+        "esModuleInterop": true,
+        "inlineSourceMap": false,
+        "lib": [
+            "DOM",
+            "esnext"
+        ],
+        "listEmittedFiles": false,
+        "listFiles": false,
+        "moduleResolution": "node",
+        "noFallthroughCasesInSwitch": true,
+        "pretty": true,
+        "resolveJsonModule": true,
+        // "rootDir": "src",
+        "strict": true,
+        "traceResolution": false,
+        "types": [
+            "node",
+            "jest"
+        ],
+        "composite": true,
+        "declaration": true,
+        "sourceMap": true,
+        "forceConsistentCasingInFileNames": true,
+        "skipLibCheck": true,
+        "alwaysStrict": true,
+        "downlevelIteration": true,
+        "noImplicitAny": true,
+        "paths": {
+            "*": [
+                "src/@customTypes/*"
+            ]
+        },
+        "isolatedModules": true
+    },
+    "compileOnSave": false,
+    "exclude": [
+        "dist",
+        "node_modules",
+        "./tools"
+    ],
+    "include": [
+        "src"
+    ]
+}
