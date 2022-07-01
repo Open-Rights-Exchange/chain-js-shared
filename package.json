@@ -45,9 +45,10 @@
   },
   "devDependencies": {
     "@aikon/aikon-configs": "*",
-    "typescript": "^4.2.4",
     "@types/jest": "^24.0.24",
-    "@types/node": "^13.1.0"
+    "@types/node": "^13.1.0",
+    "jest": "^27.3.1",
+    "typescript": "^4.2.4"
   },
   "files": [
     "dist",
