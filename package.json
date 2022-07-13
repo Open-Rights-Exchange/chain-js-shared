@@ -44,7 +44,7 @@
     "@open-rights-exchange/chain-js-plugin-ethereum": "^4.7.0"
   },
   "devDependencies": {
-    "@aikon/aikon-configs": "*",
+    "@aikon/aikon-configs": "^1.0.3",
     "@types/jest": "^24.0.24",
     "@types/node": "^13.1.0",
     "jest": "^27.3.1",

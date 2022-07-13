@@ -1,1 +1,1 @@
-module.exports = require("@aikon/aikon-configs/eslint-config-aikon");
+module.exports = require("@aikon/aikon-configs/eslint-config-react-aikon");
